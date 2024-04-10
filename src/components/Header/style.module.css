@@ -7,9 +7,13 @@
 }
 
 .logo_wrapper {
-    @apply w-fit h-32 flex flex-col items-center justify-center px-8 bg-white rounded-b-3xl shadow ;
+    @apply w-fit h-24 max-[500px]:h-16 flex flex-col items-center justify-center px-8 bg-white rounded-b-3xl shadow ;
 }
 
 .nav_links {
-    @apply  flex flex-row items-center gap-14 mx-12 ;
+    @apply  flex flex-row items-center max-[1150px]:hidden max-[1300px]:gap-3 gap-8 min-[1800px]:gap-14 min-[1800px]:gap-20 min-[1600px]:mx-12 mx-3 ;
+}
+
+.nav_links_mob {
+    @apply  flex flex-col items-end  gap-8 mb-4 ;
 }

@@ -3,7 +3,7 @@
 }
 
 .content_wrapper {
-    @apply w-full max-w-[1400px] min-[1800px]:max-w-[1600px] flex flex-col  items-center relative z-10 mt-36;
+    @apply w-full max-w-[1400px] min-[1800px]:max-w-[1600px] flex flex-col  items-center relative z-10 mt-32;
 }
 
 .mask_text {
@@ -21,7 +21,7 @@
     background: linear-gradient(0deg, rgba(7,97,191,1) 0%, rgba(7,97,191,1) 50%, rgba(129,172,218,1) 100%);
     -webkit-background-clip: text; /* clip the background to the text inside the tag*/
     -webkit-text-fill-color: transparent; /* make the text transparent so * the background shows through*/
-    @apply text-6xl font-semibold ;
+    @apply text-5xl tracking-widest leading-[70px] max-[1300px]:leading-[50px] font-semibold ;
 }
 
 .mask_text3 {
@@ -39,7 +39,7 @@
     background: linear-gradient(90deg, rgb(140, 192, 75) 0%, rgb(72, 98, 38) 100%);
     -webkit-background-clip: text; /* clip the background to the text inside the tag*/
     -webkit-text-fill-color: transparent; /* make the text transparent so * the background shows through*/
-    @apply text-6xl font-semibold leading-[80px];
+    @apply text-5xl font-semibold tracking-[-1px] leading-[70px];
 }
 
 .mask_text5 {
@@ -48,7 +48,7 @@
     background: linear-gradient(90deg, rgb(118, 164, 50) 0%, rgb(140, 192, 75) 100%);
     -webkit-background-clip: text; /* clip the background to the text inside the tag*/
     -webkit-text-fill-color: transparent; /* make the text transparent so * the background shows through*/
-    @apply text-6xl font-semibold leading-[80px];
+    @apply text-5xl font-semibold leading-[80px];
 }
 
 .shadow_inner {
