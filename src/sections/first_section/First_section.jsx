@@ -55,7 +55,7 @@ export default function First_section() {
 
             <div className={'w-full max-w-[900px] flex flex-col items-end text-end '}>
 
-                <span data-aos="fade-left" className={'max-[1150px]:self-center max-[1150px]:text-center min-[1800px]:text-[48px] text-[44px] font-semibold text-green-700 tracking-[-1px]   '}>
+                <span data-aos="fade-left" className={'max-[1150px]:self-center max-[1150px]:text-center min-[1800px]:text-[48px] text-[44px] font-[400] text-green-700 tracking-[-1px]   '}>
                     <Typewriter
                         options={{
                             strings: ['We Make Finding The Best', 'Insurance Verse'],
@@ -64,7 +64,7 @@ export default function First_section() {
                         }}
                     />
                 </span>
-                <span data-aos="fade-left" className={'max-[1150px]:self-center text-[24px] font-semibold text-green-950 mt-2'}>
+                <span data-aos="fade-left" className={'max-[1150px]:self-center text-[24px] font-[400] text-green-950 mt-2'}>
                     <Typewriter
                         options={{
                             strings: ['compare plans from top insurance companies'],
@@ -79,7 +79,7 @@ export default function First_section() {
                     <div data-aos="fade-left" className={'w-[420px] max-[500px]:w-[270px] max-[800px]:w-[360px] h-16 bg-white shadow-inner rounded-xl self-start p-1.5 flex gap-1 relative overflow-hidden'}>
                         <div style={{transform:`translateX(${currentVariant*100}%)`}} className={'w-1/2 h-full bg-[#8fc24c]/50 rounded-xl duration-500'}></div>
                         <div className={'absolute  w-[97.5%] h-[53px] rounded-xl flex items-center gap-1'}>
-                            {VARIANTS.map((value, index)=> <div onClick={()=>setCurrentVariant(index)} className={`w-1/2 h-full rounded-xl flex flex-col items-center justify-center text-xl font-semibold duration-500 cursor-pointer ${currentVariant===index? `text-[#8fc24c]`:`` } `}>
+                            {VARIANTS.map((value, index)=> <div onClick={()=>setCurrentVariant(index)} className={`w-1/2 h-full rounded-xl flex flex-col items-center justify-center text-xl font-[400] duration-500 cursor-pointer ${currentVariant===index? `text-[#8fc24c]`:`` } `}>
                                 {value}
                             </div>)}
                         </div>
@@ -98,7 +98,7 @@ export default function First_section() {
 
                                     <img className={`w-fit ${index===0?`h-8 max-[800px]:h-5 translate-y-4`:`h-14 max-[800px]:h-10`}  object-contain`} src={value.card_image} alt={'Car logo'}/>
 
-                                    <span className={` ${index===0? `translate-y-3`: ``} text-xl max-[360px]:text-[14px] text-center max-[800px]:text-[16px] font-semibold  text-green-900`}>{value.card_title}</span>
+                                    <span className={` ${index===0? `translate-y-3`: ``} text-xl max-[360px]:text-[14px] text-center max-[800px]:text-[16px] font-[400]  text-green-900`}>{value.card_title}</span>
 
                                 </div>
 
@@ -108,7 +108,7 @@ export default function First_section() {
 
 
                         <div className={'w-full h-14 max-[800px]:h-10 flex justify-center items-center rounded-2xl bg-white shadow border border-[#c3e45e] cursor-pointer'}>
-                            <span className={'text-xl max-[800px]:text-[16px] font-semibold text-green-900'}>{value.category}</span>
+                            <span className={'text-xl max-[800px]:text-[16px] font-[400] text-green-900'}>{value.category}</span>
                         </div>
 
                     </div>)}
@@ -122,9 +122,9 @@ export default function First_section() {
 
                     <div className={'flex items-center my-3 gap-6'}>
 
-                        <span className={'text-xl max-[500px]:text-sm font-semibold tracking-[0px] '}>Pickup where you left</span>
+                        <span className={'text-xl max-[500px]:text-sm font-[400] tracking-[0px] '}>Pickup where you left</span>
 
-                        <div className={'flex items-center justify-center px-6 py-3 text-sm font-semibold rounded-lg cursor-pointer bg-gradient-to-r from-[#eaf755] to-[#8fc24c]'}>Older searches</div>
+                        <div className={'flex items-center justify-center px-6 py-3 text-sm font-[400] rounded-lg cursor-pointer bg-gradient-to-r from-[#eaf755] to-[#8fc24c]'}>Older searches</div>
 
                     </div>
 

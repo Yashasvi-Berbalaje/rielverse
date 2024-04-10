@@ -79,13 +79,13 @@ export default function CommentSwiper() {
                                 </div>
 
                                 <div className={'flex flex-col items-start'}>
-                                    <span className={'font-semibold text-lg'}>{value.name}</span>
-                                    <span>{value.position}</span>
+                                    <span className={'font-[400] text-lg'}>{value.name}</span>
+                                    <span style={{fontWeight:"400",fontFamily : "Arboria-Book"}}>{value.position}</span>
                                 </div>
 
                             </div>
 
-                            <p className={'mt-4 text-xl max-[400px]:text-sm'}>{value.quote}</p>
+                            <p style={{fontWeight:"400",fontFamily : "Arboria-Book"}} className={'mt-4 text-xl max-[400px]:text-sm'}>{value.quote}</p>
 
                         </div>
 

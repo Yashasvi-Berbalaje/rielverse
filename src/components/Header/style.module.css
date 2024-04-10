@@ -1,4 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/litsans');
 .container {
+    font-family: 'LitSans', sans-serif;
     @apply w-full h-32 flex flex-col items-center  fixed top-0 z-50 ;
 }
 

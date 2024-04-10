@@ -58,7 +58,7 @@ export default function Header() {
                     </div>
 
                     <div className={styles.nav_links}>
-                        {NAV_LINKS.map((value, index)=> <Link key={index} to={value.to} className={'text-[24px] tracking-[1px] font-semibold'} >{value.title}</Link>)}
+                        {NAV_LINKS.map((value, index)=> <Link key={index} to={value.to} className={'text-[24px] tracking-[1px] font-[500]'} >{value.title}</Link>)}
                     </div>
 
                     <div className={'w-auto flex items-center max-[1150px]:hidden'}>

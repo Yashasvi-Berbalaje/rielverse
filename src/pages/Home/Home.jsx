@@ -44,7 +44,7 @@ export default function Home() {
                     <div data-aos="zoom-out-up" className={'w-full max-[630px]:w-full max-[630px]:h-28 max-[850px]:w-[600px] max-[850px]:h-44 max-[1200px]:w-[800px] max-[1200px]:h-60 min-[1880px]:max-w-[1400px] max-w-[1200px] bg-[#80b240] h-80 rounded-2xl flex flex-col items-end justify-center max-[630px]:px-4 max-[850px]:px-16 px-28 relative'}>
                         <img className={'w-full h-full object-fill absolute top-0 left-0 -z-0'} src={green_layer}/>
                         <div className={'overflow-hidden z-0 w-80 h-20 max-[630px]:w-28 max-[630px]:h-12 max-[850px]:w-44 max-[850px]:h-14 max-[1200px]:w-52 max-[1200px]:h-16 flex pl-7 max-[630px]:text-start items-center rounded-2xl max-[630px]:text-[16px] max-[850px]:text-xl max-[1200px]:text-2xl text-3xl text-white font-semibold bg-green-600 bg-gradient-to-tl from-[#93c347] to-[#b8cf29] relative'}>
-                            <span className={'max-[630px]:-translate-x-3'}>Get Quote</span>
+                            <span className={'font-[400] max-[630px]:-translate-x-3'}>Get Quote</span>
                             <IoIosArrowForward className={'text-[250px] absolute -right-8 max-[630px]:-right-12 max-[630px]:text-[150px] max-[850px]:text-[200px] max-[850px]:-right-14 max-[1200px]:-right-16 opacity-40'} />
                         </div>
 
@@ -54,8 +54,8 @@ export default function Home() {
 
                         <img data-aos="zoom-out-up" className={'w-fit h-10 object-containe'} src={logo} alt={"Railverse Logo"}/>
 
-                        <p data-aos="zoom-out-up" className={'text-2xl mt-4 opacity-75'}>Powered by Worldbridge Insurance Broker</p>
-                        <p data-aos="zoom-out-up" className={'text-xl mt-4 opacity-75'}>#10, 150 South Bridge Rd, #04 Fook Hai Building, Singapore 058727</p>
+                        <p style={{fontWeight:"400",fontFamily : "Arboria-Book"}} data-aos="zoom-out-up" className={'text-2xl mt-4 opacity-75'}>Powered by Worldbridge Insurance Broker</p>
+                        <p style={{fontWeight:"400",fontFamily : "Arboria-Book"}} data-aos="zoom-out-up" className={'text-xl mt-4 opacity-75'}>#10, 150 South Bridge Rd, #04 Fook Hai Building, Singapore 058727</p>
 
                     </div>
 
@@ -88,9 +88,9 @@ export default function Home() {
 
                         <img className={'w-12 h-12 object-contain'} src={phone} alt={'phone'}/>
 
-                        <div className={'flex flex-col items-center text-2xl max-[1000px]:text-[18px] font-semibold opacity-50 gap-2 '}>
+                        <div style={{fontWeight:"400",fontFamily : "Arboria-Book"}} className={'flex flex-col items-center text-2xl max-[1000px]:text-[18px] font-semibold opacity-50 gap-2 '}>
 
-                            <span>CUSTOMER SERVICE</span>
+                            <span style={{fontWeight:"500"}}>CUSTOMER SERVICE</span>
                             <span className={'max-[1000px]:-translate-y-2'}>1800 2333 533</span>
 
                         </div>
@@ -103,7 +103,7 @@ export default function Home() {
 
             <div className={'w-full max-[800px]:px-2 max-[1440px]:px-6  max-w-[1400px] min-[1800px]:max-w-[1600px] flex flex-col  items-center'}>
 
-                <p data-aos="fade-down" className={'text-start text-lg max-[800px]:text-sm font-semibold leading-7 opacity-75 '}>Remark<br/><br/>
+                <p style={{fontWeight:"400",fontFamily : "Arboria-Book"}} data-aos="fade-down" className={'text-start text-lg max-[800px]:text-sm font-semibold leading-7 opacity-75 '}>Remark<br/><br/>
                     Please answer all the above questions truthfully. If the insured conceals the truth or making a false statement will result in the voiding of this insurance contract. The
                     insurance company has the right to terminate the insurance contract under Section 865 of the Civil and Commercial Code, and may refuse to pay compensation<br/><br/>
                     The Company does not contact customers through other (communication) channels apart from the Company’s official channels under any circumstances.<br/><br/>
