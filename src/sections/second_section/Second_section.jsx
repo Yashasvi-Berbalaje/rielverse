@@ -84,8 +84,8 @@ export default function Second_section() {
     return<>
         <div className={'w-full h-auto flex flex-col items-center max-[1400px]:px-4'}>
 
-            <div data-aos="zoom-in" className={'w-full max-w-[1200px] px-[3px] pt-[3px] rounded-3xl h-auto bg-gradient-to-t from-transparent to-[#8dc14b] mt-12 '}>
-                <div className={'w-full h-56 max-[800px]:h-44 max-[650px]:h-auto bg-white flex max-[650px]:flex-wrap items-center rounded-3xl'}>
+            <div data-aos="zoom-in" className={'w-full max-w-[1000px] px-[3px] pt-[3px] rounded-3xl h-auto bg-gradient-to-t from-transparent to-[#8dc14b] mt-12 '}>
+                <div className={'w-full h-48 max-[800px]:h-40 max-[650px]:h-auto bg-white flex max-[650px]:flex-wrap items-center rounded-3xl'}>
 
                     {BENEFITS.map((value, index)=><div className={'w-1/4 max-[650px]:w-1/2 h-auto flex items-center max-[650px]:mt-4'}>
                         <div className={`${index===2 || index===0 ?`opacity-0` :``} min-[650px]:hidden w-0.5 h-32 bg-[#8dc14b]`}></div>
@@ -93,7 +93,7 @@ export default function Second_section() {
 
                             <img className={'w-[60px] max-[800px]:w-[45px] h-fit max-h-[60px] object-contain'} src={value.image} alt={'Railverse'}/>
 
-                            <span style={{fontWeight:"400",fontFamily : "Arboria-Book"}} className={'text-[28px] max-[500px]:text-[20px]  max-[800px]:text-[24px]  mt-2'}>{value.title}</span>
+                            <span style={{fontWeight:"400",fontFamily : "Arboria-Book"}} className={'text-[22px] max-[500px]:text-[20px]  max-[800px]:text-[22px]  mt-2'}>{value.title}</span>
                             <span style={{fontWeight:"400",fontFamily : "Arboria-Book"}} className={'text-[14px] '}>{value.description}</span>
 
                         </div>
@@ -106,7 +106,7 @@ export default function Second_section() {
 
             <div className={'w-full flex max-[1150px]:flex-col max-[1150px]:items-center items-start mt-16 justify-center'}>
 
-                <div data-aos="fade-right" className={'w-[550px] max-[1300px]:w-auto max-[1150px]:w-full h-auto flex flex-col  max-[1150px]:items-center max-[1150px]:text-center items-start text-start'}>
+                <div data-aos="fade-right" className={'w-auto max-[1150px]:w-full h-auto flex flex-col  max-[1150px]:items-center max-[1150px]:text-center items-start text-start'}>
                     <div className={'w-[400px] max-[1300px]:w-auto max-[1150px]:w-full max-[1150px]:items-center h-auto flex flex-col items-start '}>
 
                         <span className={styles.mask_text}>WHO WE ARE ?</span>
@@ -122,7 +122,7 @@ export default function Second_section() {
                         </span>
 
                     </div>
-                    <span style={{fontWeight:"400",fontFamily : "Arboria-Book"}} className={'text-lg max-[1300px]:text-[15px] font-semibold mt-3 max-[1300px]:leading-7 leading-10'}>We are committed to serve our customers during or after the purchase of your policy, handover all your insurance related worries to us and Relax!</span>
+                    <span style={{fontWeight:"400",fontFamily : "Arboria-Book"}} className={'text-[14px] max-w-[350px] max-[1300px]:text-[15px] font-semibold mt-3 max-[1300px]:leading-7 leading-10'}>We are committed to serve our customers during or after the purchase of your policy, handover all your insurance related worries to us and Relax!</span>
                 </div>
 
                 <div data-aos="fade-left" className={'flex max-[700px]:flex-wrap max-[700px]:justify-center max-[700px]:gap-3 items-start relative max-[1150px]:mt-10 '}>
@@ -131,10 +131,10 @@ export default function Second_section() {
 
                         <div className={'w-full h-full rounded-xl bg-white flex flex-col items-start px-6 pt-6 text-start '}>
 
-                            <img className={'w-24 max-h-24 max-[1300px]:w-16 object-contain'} src={value.image} alt={"Saving"}/>
+                            <img className={'w-24 max-h-[75px]  object-contain'} src={value.image} alt={"Saving"}/>
 
-                            <span className={'text-3xl max-[1300px]:text-xl font-[400] mt-4'}>{value.title}</span>
-                            <span style={{fontWeight:"400",fontFamily : "Arboria-Book"}} className={'text-[16px] max-[1300px]:text-[14px] font-[400] max-[1300px]:mt-2 mt-4'}>{value.description}</span>
+                            <span className={'text-[22px] max-[1300px]:text-xl font-[400] mt-4'}>{value.title}</span>
+                            <span style={{fontWeight:"400",fontFamily : "Arboria-Book"}} className={'text-[14px] font-[400] max-[1300px]:mt-2 mt-4'}>{value.description}</span>
 
                         </div>
                         {/*<div className={styles.animated_back}></div>*/}
@@ -165,7 +165,7 @@ export default function Second_section() {
                         {/*Insurance Has Never Been So Simple & <br/> We Are Trying To Make It Even More!*/}
                     </span>
 
-                    <span style={{fontWeight:"400",fontFamily : "Arboria-Book"}} className={'text-xl max-[800px]:text-[16px] max-[800px]:leading-7 leading-10 mt-4'}>Be it the Comparisons, Helping you find the best plan for your needs, Making changes to your existing policy or even claims - We are with you all the way!</span>
+                    <span style={{fontWeight:"400",fontFamily : "Arboria-Book"}} className={'text-[14px] max-[800px]:text-[16px] max-[800px]:leading-7 leading-10 mt-4'}>Be it the Comparisons, Helping you find the best plan for your needs, Making changes to your existing policy or even claims - We are with you all the way!</span>
 
                 </div>
 
@@ -175,11 +175,11 @@ export default function Second_section() {
 
                         {OFFERS.map((value, index)=><div data-aos="zoom-out" className={'w-1/3 max-[650px]:w-full h-auto flex items-center'}>
                             <div key={index} className={'w-full h-auto flex flex-col justify-center items-center px-4'}>
-                                <span style={{fontWeight:"400",fontFamily : "Arboria-Book"}} className={'text-2xl max-[800px]:text-lg '}>{value.title}</span>
-                                <img className={'w-24 h-fit max-[800px]:w-16 max-h-24 object-contain mt-5'} src={value.image} alt={'Railverse'}/>
+                                <span style={{fontWeight:"400",fontFamily : "Arboria-Book"}} className={'text-[18px] '}>{value.title}</span>
+                                <img className={'w-24 h-fit max-[800px]:w-16 max-h-[65px] object-contain mt-5'} src={value.image} alt={'Railverse'}/>
 
-                                <span className={'text-[24px] max-[800px]:text-[18px] text-[#47740e] font-[400] mt-2'}>{value.subtitle}</span>
-                                <span style={{fontWeight:"400",fontFamily : "Arboria-Book"}} className={'text-[18px] max-[800px]:text-[14px] max-[800px]:leading-5 mt-4 tracking-[0.5px] leading-7'}>{value.description}</span>
+                                <span className={'text-[20px] max-[800px]:text-[18px] text-[#47740e] font-[400] mt-2'}>{value.subtitle}</span>
+                                <span style={{fontWeight:"400",fontFamily : "Arboria-Book"}} className={'text-[14px] max-[800px]:text-[12px] max-[800px]:leading-5 mt-4 tracking-[0.5px] leading-7'}>{value.description}</span>
 
                             </div>
                             <div className={`${index===2?`opacity-0` :``} w-0.5 max-[650px]:hidden h-52 bg-gradient-to-b from-[#8dc14b] to-transparent`}></div>
@@ -195,21 +195,21 @@ export default function Second_section() {
 
                 <div data-aos="zoom-out-right" className={'w-full max-w-[620px] max-[1150px]:w-[330px] '}>
 
-                    <img className={'w-full h-fit max-h-[537px] object-contain'} src={girl} alt={''}/>
+                    <img className={'w-full h-fit max-h-[423px] object-contain'} src={girl} alt={''}/>
 
                 </div>
 
                 <div data-aos="zoom-out-left" className={'w-full max-[1150px]:w-full max-[1200px]:w-[500px] max-[1300px]:w-[600px] max-[1400px]:w-[700px] max-w-[900px] flex flex-col items-start max-[1400px]:ml-0 ml-16 mt-8 text-start '}>
 
-                    <span className={'text-[24px]  underline font-[400]'}>Reviews</span>
-                    <p className={'text-5xl max-[800px]:text-3xl leading-[25px] font-[400] mt-0'}>
+                    <span className={'text-[18px]  underline font-[400]'}>Reviews</span>
+                    <p className={'text-[36px] max-[800px]:text-3xl leading-[25px] font-[400] mt-0'}>
                         <span className={styles.mask_text5}>What they say</span><br/>
                         <span className={'relative'}>
                             About us
                             <img className={'absolute -bottom-4 w-[175px] h-[17px] object-contain'} src={green_stripe} alt={'stripe'}/>
                         </span>
                     </p>
-                    <p style={{fontWeight:"400",fontFamily : "Arboria-Book"}} className={'text-2xl max-[800px]:text-lg max-[800px]:mt-4 tracking-[1px] leading-[40px] mt-12 '}>
+                    <p style={{fontWeight:"400",fontFamily : "Arboria-Book"}} className={'text-[21px] max-[800px]:text-lg max-[800px]:mt-4 tracking-[1px] leading-[40px] mt-12 '}>
                         We're honoured to have helped these begin a <span className={'text-[#8dc14b]'}> SMILING FACES </span> new life abroad
                     </p>
 

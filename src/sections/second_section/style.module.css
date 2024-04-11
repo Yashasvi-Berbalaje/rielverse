@@ -4,7 +4,7 @@
     background: linear-gradient(90deg, rgba(89,89,89,1) 0%, rgba(89,89,89,1) 75%, rgba(89,89,89,0.5) 100%);
     -webkit-background-clip: text; /* clip the background to the text inside the tag*/
     -webkit-text-fill-color: transparent; /* make the text transparent so * the background shows through*/
-    @apply text-[30px] font-[400] ;
+    @apply text-[22px] font-[400] ;
 }
 
 .mask_text2 {
@@ -13,7 +13,7 @@
     background: linear-gradient(0deg, rgba(7,97,191,1) 0%, rgba(7,97,191,1) 50%, rgba(129,172,218,1) 100%);
     -webkit-background-clip: text; /* clip the background to the text inside the tag*/
     -webkit-text-fill-color: transparent; /* make the text transparent so * the background shows through*/
-    @apply text-5xl tracking-widest leading-[70px] max-[1300px]:leading-[50px] font-[400] ;
+    @apply text-[36px] tracking-widest leading-[50px] max-[1300px]:leading-[30px] font-[400] ;
 }
 
 .mask_text3 {
@@ -22,7 +22,7 @@
     background: linear-gradient(90deg, rgb(167, 186, 213) 0%, rgba(7,97,191,1) 50%, rgb(12, 94, 168) 100%);
     -webkit-background-clip: text; /* clip the background to the text inside the tag*/
     -webkit-text-fill-color: transparent; /* make the text transparent so * the background shows through*/
-    @apply text-xl font-[400] ;
+    @apply text-[18px] font-[400] ;
 }
 
 .mask_text4 {
@@ -31,7 +31,7 @@
     background: linear-gradient(90deg, rgb(140, 192, 75) 0%, rgb(72, 98, 38) 100%);
     -webkit-background-clip: text; /* clip the background to the text inside the tag*/
     -webkit-text-fill-color: transparent; /* make the text transparent so * the background shows through*/
-    @apply text-5xl font-[400] tracking-[-1px] leading-[70px] max-[800px]:text-3xl;
+    @apply text-[36px] font-[400] tracking-[-1px] leading-[70px] max-[800px]:text-3xl;
 }
 
 .mask_text5 {
@@ -40,11 +40,11 @@
     background: linear-gradient(90deg, rgb(118, 164, 50) 0%, rgb(140, 192, 75) 100%);
     -webkit-background-clip: text; /* clip the background to the text inside the tag*/
     -webkit-text-fill-color: transparent; /* make the text transparent so * the background shows through*/
-    @apply text-5xl max-[800px]:text-3xl font-[400] leading-[80px];
+    @apply text-[36px] max-[800px]:text-3xl font-[400] leading-[80px];
 }
 
 .card_background {
-    @apply w-72 max-[800px]:w-56 max-[1300px]:w-64 min-[1800px]:w-80 max-[1300px]:h-[300px] h-[350px] rounded-xl p-[2px] relative bg-gradient-to-r from-[#0761bf]/70 to-50% to-transparent overflow-hidden ;
+    @apply w-[260px] max-[800px]:w-56 max-[1300px]:w-64 min-[1800px]:w-80 h-[300px]  rounded-xl p-[2px] relative bg-gradient-to-r from-[#0761bf]/70 to-50% to-transparent overflow-hidden ;
 }
 
 .animated_back {

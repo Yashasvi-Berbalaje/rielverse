@@ -59,7 +59,7 @@ export default function Header() {
                     </div>
 
                     <div className={styles.nav_links}>
-                        {NAV_LINKS.map((value, index)=> <Link key={index} to={value.to} className={'text-[24px] tracking-[1px] font-[500]'} >{value.title}</Link>)}
+                        {NAV_LINKS.map((value, index)=> <Link key={index} to={value.to} className={'text-[16px] tracking-[1px] font-[500]'} >{value.title}</Link>)}
                     </div>
 
                     <div className={'w-auto flex items-center max-[1150px]:hidden'}>
@@ -68,8 +68,8 @@ export default function Header() {
 
                             <img className={'w-[30px] h-[30px] object-contain mr-2'} src={phone} alt={'phone'}/>
                             <div className={'flex flex-col items-end leading-4 '}>
-                                <span className={'text-lg font-[500]'}>+91 11 4678 1000</span>
-                                <span className={'font-[500] text-xs'}>24 Hours</span>
+                                <span className={'text-[14px] font-[500]'}>+91 11 4678 1000</span>
+                                <span className={'font-[500] text-[7px]'}>24 Hours</span>
                             </div>
 
                         </div>
@@ -81,7 +81,7 @@ export default function Header() {
                         <div className={'w-auto px-4 py-2 rounded-2xl bg-white shadow flex items-center gap-3 max-[1300px]:ml-4 ml-8 '}>
 
                             <img className={'h-9 w-9 object-contain'} src={download} alt={'Download'}/>
-                            <span className={'text-lg font-[500] text-green-700'}>Get Quote</span>
+                            <span className={'text-[14px] font-[500] text-green-700'}>Get Quote</span>
 
                         </div>
 
@@ -105,7 +105,7 @@ export default function Header() {
                         </div>
 
                         <div className={styles.nav_links_mob}>
-                            {NAV_LINKS.map((value, index)=> <Link key={index} to={value.to} className={'text-[24px] tracking-[1px] font-semibold'} >{value.title}</Link>)}
+                            {NAV_LINKS.map((value, index)=> <Link key={index} to={value.to} className={'text-[16px] tracking-[1px] font-semibold'} >{value.title}</Link>)}
                         </div>
 
                         <div className={'w-auto flex max-[500px]:flex-col  max-[500px]:gap-4 items-center '}>
@@ -114,8 +114,8 @@ export default function Header() {
 
                                 <MdOutlinePhoneInTalk className={'text-3xl'} />
                                 <div className={'flex flex-col items-end leading-4 '}>
-                                    <span className={'text-lg font-semibold'}>+91 11 4678 1000</span>
-                                    <span className={'font-bold text-xs'}>24 Hours</span>
+                                    <span className={'text-[14px] font-semibold'}>+91 11 4678 1000</span>
+                                    <span className={'font-bold text-[7px]'}>24 Hours</span>
                                 </div>
 
                             </div>
@@ -123,7 +123,7 @@ export default function Header() {
                             <div className={'w-auto px-4 py-2 rounded-2xl bg-white shadow flex items-center gap-3 min-[500px]:ml-8 '}>
 
                                 <img className={'h-9 w-9 object-contain'} src={download} alt={'Download'}/>
-                                <span className={'text-lg font-semibold text-green-700'}>Get Quote</span>
+                                <span className={'text-[14px] font-semibold text-green-700'}>Get Quote</span>
 
                             </div>
 
