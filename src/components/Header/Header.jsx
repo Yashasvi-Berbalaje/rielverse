@@ -52,11 +52,11 @@ export default function Header() {
 
             <div className={`${styles.wrapper} ${scrollCount>=1? `bg-gradient-to-b from-50% from-[#c3e45e]  to-100% to-transparent duration-300 ` : `bg-gradient-to-b from-transparent  to-transparent duration-300`} duration-300`}>
 
-                <div className={'w-full max-[1440px]:px-5 max-w-[1400px] min-[1800px]:max-w-[1600px] flex items-center justify-between relative z-10'}>
+                <div className={'w-full max-[1150px]:px-5 max-[1440px]:px-[80px] max-w-[1400px] min-[1800px]:max-w-[1600px] flex items-center justify-between relative z-10'}>
 
                     {/*Logo*/}
                     <div className={styles.logo_wrapper}>
-                        <img className={'w-fit max-w-[365px] h-10 max-[500px]:h-5 max-[1350px]:h-7 object-contain'} src={logo} alt={"Railverse Logo"}/>
+                        <img className={'w-fit max-w-[300px] h-7 max-[500px]:h-5 max-[1350px]:h-7 object-contain'} src={logo} alt={"Railverse Logo"}/>
                     </div>
 
                     <div className={styles.nav_links}>

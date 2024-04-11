@@ -9,7 +9,7 @@
 }
 
 .logo_wrapper {
-    @apply w-fit h-24 max-[500px]:h-16 flex flex-col items-center justify-center px-8 bg-white rounded-b-3xl shadow ;
+    @apply w-fit h-20 max-w-[300px] max-[500px]:h-16 flex flex-col items-center justify-center px-8 bg-white rounded-b-3xl shadow ;
 }
 
 .nav_links {
