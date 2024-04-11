@@ -51,9 +51,9 @@ export default function First_section() {
     return<>
         <div className={'w-full max-[1440px]:px-6 max-[500px]:px-2 flex max-[1150px]:flex-col justify-center items-center relative mt-0'}>
 
-            <img data-aos="zoom-in" src={couple} className={'w-[700px] max-[800px]:w-[300px] max-[1350px]:w-[400px] max-h-[510px]  h-fit  object-contain mr-3 '}/>
+            <img data-aos="zoom-in" src={couple} className={'w-[500px] max-[800px]:w-[300px] max-[1350px]:w-[400px] max-w-[500px] max-h-[380px]  h-fit  object-contain mr-3 '}/>
 
-            <div className={'w-full max-w-[900px] flex flex-col items-end text-end '}>
+            <div className={'w-full max-w-[600px] flex flex-col items-end text-end '}>
 
                 <span data-aos="fade-left" className={'max-[1150px]:self-center max-[1150px]:text-center min-[1800px]:text-[40px] text-[36px] font-[400] text-green-700 tracking-[-1px]   '}>
                     <Typewriter
