@@ -1,19 +1,19 @@
 import React from "react";
 import style from "./style.module.css";
-import diamond from "../../Reilverse_Assets/Logo Vector (3).png";
+import diamond from "../../Reilverse_Assets/Logo Vector (3).svg";
 import First_section from "../../sections/first_section/First_section";
 import Second_section from "../../sections/second_section/Second_section";
 
-import green_layer from "../../Reilverse_Assets/Frame 3 (1).png";
+import green_layer from "../../Reilverse_Assets/Frame 3 (1).svg";
 import {IoIosArrowForward, IoLogoInstagram} from "react-icons/io";
-import logo from "../../Reilverse_Assets/Logo.png";
-import phone from "../../Reilverse_Assets/Group.png";
+import logo from "../../Reilverse_Assets/Logo.svg";
+import phone from "../../Reilverse_Assets/Group.svg";
 import secure from "../../Reilverse_Assets/secure.png";
-import comodo from "../../Reilverse_Assets/image 63345987.png";
+import comodo from "../../Reilverse_Assets/image 63345987.svg";
 import mcaffe from "../../Reilverse_Assets/image 63345988.png";
-import vector1 from "../../Reilverse_Assets/Vector.png";
-import vector2 from "../../Reilverse_Assets/Vector (1).png";
-import vector3 from "../../Reilverse_Assets/Vector (2).png";
+import vector1 from "../../Reilverse_Assets/Vector.svg";
+import vector2 from "../../Reilverse_Assets/Vector (1).svg";
+import vector3 from "../../Reilverse_Assets/Vector (2).svg";
 import {FaFacebookF, FaLinkedinIn} from "react-icons/fa";
 import {FaXTwitter} from "react-icons/fa6";
 
@@ -41,7 +41,7 @@ export default function Home() {
 
                 <div className={'w-full max-[800px]:px-2 max-[1440px]:px-6 flex flex-col items-center mt-20'}>
 
-                    <div data-aos="zoom-out-up" className={'w-full max-[630px]:w-full max-[630px]:h-28 max-[850px]:w-[600px] max-[850px]:h-44 max-[1200px]:w-[800px] max-[1200px]:h-60 min-[1880px]:max-w-[1400px] max-w-[1200px] bg-[#80b240] h-80 rounded-2xl flex flex-col items-end justify-center max-[630px]:px-4 max-[850px]:px-16 px-28 relative'}>
+                    <div data-aos="zoom-out-up" className={'w-full max-[630px]:w-full max-[630px]:h-28 max-[850px]:w-[600px] max-[850px]:h-44 max-[1200px]:w-[800px] max-[1200px]:h-60 min-[1880px]:max-w-[1400px] max-w-[1200px] h-80 rounded-2xl flex flex-col items-end justify-center max-[630px]:px-4 max-[850px]:px-16 px-28 relative'}>
                         <img className={'w-full h-full object-fill absolute top-0 left-0 -z-0'} src={green_layer}/>
                         <div className={'overflow-hidden z-0 w-80 h-20 max-[630px]:w-28 max-[630px]:h-12 max-[850px]:w-44 max-[850px]:h-14 max-[1200px]:w-52 max-[1200px]:h-16 flex pl-7 max-[630px]:text-start items-center rounded-2xl max-[630px]:text-[16px] max-[850px]:text-xl max-[1200px]:text-2xl text-3xl text-white font-semibold bg-green-600 bg-gradient-to-tl from-[#93c347] to-[#b8cf29] relative'}>
                             <span className={'font-[400] max-[630px]:-translate-x-3'}>Get Quote</span>

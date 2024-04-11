@@ -9,7 +9,8 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import avatar from "../../Reilverse_Assets/Ellipse 117.png";
+import avatar from "../../Reilverse_Assets/Ellipse 117.svg";
+import comas from "../../Reilverse_Assets/comas.svg";
 import {Autoplay, Navigation, Pagination} from "swiper/modules";
 
 
@@ -38,8 +39,8 @@ export default function CommentSwiper() {
 
     return<>
         <div className={'w-full max-w-[850px] h-72 relative mt-7'}>
-            <div className={'flex items-center text-8xl text-green-700 w-20 h-20 flex items-center justify-center rounded-lg bg-[#8dc14b]/30 gap-2 absolute top-3 max-[500px]:right-4 right-28 z-10'}>
-                <span className={'translate-y-4'}>”</span>
+            <div className={'flex items-center  w-20 h-20 flex items-center justify-center rounded-lg bg-[#8dc14b]/30 gap-2 absolute top-3 max-[500px]:right-4 right-28 z-10'}>
+                <img className={'w-[31px] h-[23px] object-contain'} src={comas} alt={'quote'}/>
             </div>
 
             <Swiper

@@ -1,10 +1,10 @@
 import React, {useState} from "react";
 import style from "./style.module.css";
 import couple from "../../Reilverse_Assets/couple.svg";
-import car from "../../Reilverse_Assets/Car.png";
-import health from "../../Reilverse_Assets/health 2.png";
-import smallbiz from "../../Reilverse_Assets/Small.png";
-import industry from "../../Reilverse_Assets/industry (1) 1.png";
+import car from "../../Reilverse_Assets/Car.svg";
+import health from "../../Reilverse_Assets/Health.svg";
+import smallbiz from "../../Reilverse_Assets/Small.svg";
+import industry from "../../Reilverse_Assets/industry (1) 1.svg";
 
 import Typewriter from 'typewriter-effect';
 
@@ -98,7 +98,7 @@ export default function First_section() {
 
                                     <img className={`w-fit ${index===0?`h-8 max-[800px]:h-5 translate-y-4`:`h-14 max-[800px]:h-10`}  object-contain`} src={value.card_image} alt={'Car logo'}/>
 
-                                    <span className={` ${index===0? `translate-y-3`: ``} text-xl max-[360px]:text-[14px] text-center max-[800px]:text-[16px] font-[400]  text-green-900`}>{value.card_title}</span>
+                                    <span className={` ${index===0? `max-[800px]:translate-y-3`: ``} text-xl max-[360px]:text-[14px] text-center max-[800px]:text-[16px] font-[400]  text-green-900`}>{value.card_title}</span>
 
                                 </div>
 

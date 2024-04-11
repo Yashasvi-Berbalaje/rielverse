@@ -1,17 +1,17 @@
 import React from "react";
 import styles from "./style.module.css";
-import saving from "../../Reilverse_Assets/savings 1.png";
-import girl from "../../Reilverse_Assets/image 20.png";
+import saving from "../../Reilverse_Assets/savings 1.svg";
+import girl from "../../Reilverse_Assets/image 20.svg";
 import CommentSwiper from "../../components/CommentSwiper/CommentSwiper";
-import customer from "../../Reilverse_Assets/personal-accident-cover-for-passengers 1.png";
-import satisfy from "../../Reilverse_Assets/success_great_approved_congrats 1.png";
-import award from "../../Reilverse_Assets/award 1.png";
-import waranty from "../../Reilverse_Assets/Guaran.png";
-import comparing from "../../Reilverse_Assets/comparison 1.png";
-import user from "../../Reilverse_Assets/pointer-right 1.png";
-import support from "../../Reilverse_Assets/support.png";
-import notice from "../../Reilverse_Assets/notice-assistance 1.png";
-import globe from "../../Reilverse_Assets/connected-globe 1.png";
+import customer from "../../Reilverse_Assets/personal-accident-cover-for-passengers 1.svg";
+import satisfy from "../../Reilverse_Assets/success_great_approved_congrats 1.svg";
+import award from "../../Reilverse_Assets/award 1.svg";
+import waranty from "../../Reilverse_Assets/Guaran.svg";
+import comparing from "../../Reilverse_Assets/comparison 1.svg";
+import user from "../../Reilverse_Assets/pointer-right 1.svg";
+import support from "../../Reilverse_Assets/support.svg";
+import notice from "../../Reilverse_Assets/notice-assistance 1.svg";
+import globe from "../../Reilverse_Assets/connected-globe 1.svg";
 import green_stripe from "../../Reilverse_Assets/Vector_stripe.svg";
 import Typewriter from "typewriter-effect";
 
