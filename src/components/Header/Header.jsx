@@ -11,6 +11,7 @@ import phone from "../../Reilverse_Assets/phone.svg";
 export default function Header() {
 
     const [isOpen,setOpen] = useState(false);
+    const [languages,setLanguages] = useState(0)
 
     const NAV_LINKS = [
         {
@@ -82,6 +83,13 @@ export default function Header() {
 
                             <img className={'h-9 w-9 object-contain'} src={download} alt={'Download'}/>
                             <span className={'text-[14px] font-[500] text-green-700'}>Get Quote</span>
+
+                        </div>
+
+                        <div className={'flex items-center gap-1 ml-2 '}>
+
+                            <div onClick={()=>setLanguages(0)} className={` ${languages===0?`bg-blue-500 text-white`:`bg-white`} duration-200 w-8 h-8 rounded-full flex justify-center items-center text-[12px]  cursor-pointer pt-1 `}>EN</div>
+                            <div onClick={()=>setLanguages(1)} className={` ${languages===1?`bg-blue-500 text-white`:`bg-white`} duration-200 w-8 h-8 rounded-full flex justify-center items-center text-[12px] cursor-pointer pt-1`}>IND</div>
 
                         </div>
 

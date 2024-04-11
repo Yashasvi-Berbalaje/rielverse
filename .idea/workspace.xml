@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34679381-f7bd-4e4b-ae9a-894deeb5db1c" name="Changes" comment="new">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CommentSwiper/CommentSwiper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CommentSwiper/CommentSwiper.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CommentSwiper/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CommentSwiper/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/first_section/First_section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/first_section/First_section.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/second_section/Second_section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/second_section/Second_section.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/second_section/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/second_section/style.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +62,16 @@
       <workItem from="1712845112112" duration="17000" />
       <workItem from="1712845254126" duration="738000" />
       <workItem from="1712846157607" duration="128000" />
-      <workItem from="1712846304728" duration="98000" />
+      <workItem from="1712846304728" duration="724000" />
     </task>
+    <task id="LOCAL-00001" summary="new">
+      <created>1712846453339</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712846453339</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
