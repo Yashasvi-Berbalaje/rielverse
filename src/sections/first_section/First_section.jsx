@@ -53,9 +53,9 @@ export default function First_section() {
 
             <img data-aos="zoom-in" src={couple} className={'w-[500px] max-[800px]:w-[300px] max-[1350px]:w-[400px] max-w-[500px] max-h-[380px]  h-fit  object-contain mr-3 '}/>
 
-            <div className={'w-full max-w-[600px] flex flex-col items-end text-end '}>
+            <div className={'w-full max-w-[600px] flex flex-col items-end text-start '}>
 
-                <span data-aos="fade-left" className={'max-[1150px]:self-center max-[1150px]:text-center min-[1800px]:text-[40px] text-[36px] font-[400] text-green-700 tracking-[-1px]   '}>
+                <span data-aos="fade-left" className={'max-[1150px]:self-center self-start max-[1150px]:text-center min-[1800px]:text-[40px] text-[36px] font-[400] text-green-700 tracking-[-1px]   '}>
                     <Typewriter
                         options={{
                             strings: ['We Make Finding The Best', 'Insurance Verse'],
@@ -64,7 +64,7 @@ export default function First_section() {
                         }}
                     />
                 </span>
-                <span data-aos="fade-left" className={'max-[1150px]:self-center text-[18px] font-[400] text-green-950 mt-2'}>
+                <span data-aos="fade-left" className={'max-[1150px]:self-center self-start text-[18px] font-[400] text-green-950 mt-2'}>
                     <Typewriter
                         options={{
                             strings: ['compare plans from top insurance companies'],
