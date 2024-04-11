@@ -41,7 +41,7 @@ export default function Home() {
 
                 <div className={'w-full max-[800px]:px-2 max-[1440px]:px-6 flex flex-col items-center mt-20'}>
 
-                    <div data-aos="zoom-out-up" className={'w-full max-[630px]:w-full max-[630px]:h-28 max-[850px]:w-[600px] max-[850px]:h-44 max-[1200px]:w-[800px] max-[1200px]:h-60 min-[1880px]:max-w-[1400px] max-w-[1200px] h-80 rounded-2xl flex flex-col items-end justify-center max-[630px]:px-4 max-[850px]:px-16 px-28 relative'}>
+                    <div data-aos="zoom-out-up" className={'w-full max-[630px]:w-full max-[630px]:h-28 max-[850px]:w-[600px] max-[850px]:h-44 max-[1200px]:w-[800px] max-[1200px]:h-60 min-[1880px]:max-w-[1400px] max-w-[1190px] h-80 rounded-2xl flex flex-col items-end justify-center max-[630px]:px-4 max-[850px]:px-16 px-28 relative'}>
                         <img className={'w-full h-full object-fill absolute top-0 left-0 -z-0'} src={green_layer}/>
                         <div className={'overflow-hidden z-0 w-80 h-20 max-[630px]:w-28 max-[630px]:h-12 max-[850px]:w-44 max-[850px]:h-14 max-[1200px]:w-52 max-[1200px]:h-16 flex pl-7 max-[630px]:text-start items-center rounded-2xl max-[630px]:text-[16px] max-[850px]:text-xl text-[24px] text-white font-semibold bg-green-600 bg-gradient-to-tl from-[#93c347] to-[#b8cf29] relative'}>
                             <span className={'font-[400] max-[630px]:-translate-x-3'}>Get Quote</span>
@@ -101,7 +101,7 @@ export default function Home() {
 
             </div>
 
-            <div className={'w-full max-[800px]:px-2 max-[1440px]:px-6  max-w-[1400px] min-[1800px]:max-w-[1600px] flex flex-col  items-center'}>
+            <div className={'w-full max-[800px]:px-2 max-[1440px]:px-6  max-w-[1190px] min-[1800px]:max-w-[1600px] flex flex-col  items-center'}>
 
                 <p style={{fontWeight:"400",fontFamily : "Arboria-Book"}} data-aos="fade-down" className={'text-start text-[14px] max-[800px]:text-[12px] font-semibold leading-7 opacity-75 '}>Remark<br/><br/>
                     Please answer all the above questions truthfully. If the insured conceals the truth or making a false statement will result in the voiding of this insurance contract. The

@@ -199,7 +199,7 @@ export default function Second_section() {
 
                 </div>
 
-                <div data-aos="zoom-out-left" className={'w-full max-[1150px]:w-full max-[1200px]:w-[500px] max-[1300px]:w-[600px] max-[1400px]:w-[700px] max-w-[900px] flex flex-col items-start max-[1400px]:ml-0 ml-16 mt-8 text-start '}>
+                <div data-aos="zoom-out-left" className={'w-full max-[1150px]:w-full max-[1200px]:w-[400px] max-[1300px]:w-[500px] max-[1400px]:w-[600px] max-w-[900px] flex flex-col items-start max-[1400px]:ml-0 ml-16 mt-8 text-start '}>
 
                     <span className={'text-[18px]  underline font-[400]'}>Reviews</span>
                     <p className={'text-[36px] max-[800px]:text-3xl leading-[25px] font-[400] mt-0'}>
