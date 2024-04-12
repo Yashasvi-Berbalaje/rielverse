@@ -33,8 +33,8 @@ function App() {
 
                 <Routes>
                     <Route path={'/'} element={<Home/>}/>
-                    <Route path={'/car_brand'} element={<CarBrand/>}/>
-                    <Route path={'/driver_info'} element={<Driver_info/>}/>
+                    {/*<Route path={'/car_brand'} element={<CarBrand/>}/>*/}
+                    {/*<Route path={'/driver_info'} element={<Driver_info/>}/>*/}
                 </Routes>
 
             </div>
