@@ -1,4 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/litsans');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(https://db.onlinewebfonts.com/c/1c7f14203d028f1c6f8914508f469cb9?family=Arboria-Book);
 .container {
     font-family: 'LitSans', sans-serif;
     @apply w-full h-32 flex flex-col items-center  fixed top-0 z-50 ;
@@ -9,7 +11,7 @@
 }
 
 .logo_wrapper {
-    @apply w-fit h-20 max-w-[300px] max-[500px]:h-16 flex flex-col items-center justify-center px-8 bg-white rounded-b-3xl shadow ;
+    @apply w-fit h-20 max-w-[300px] max-[500px]:h-16 flex flex-col items-center justify-center ;
 }
 
 .nav_links {

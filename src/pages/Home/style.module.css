@@ -6,7 +6,7 @@
 }
 
 .content_wrapper {
-    @apply w-full max-w-[1400px] min-[1800px]:max-w-[1600px] flex flex-col  items-center relative z-10 mt-32;
+    @apply w-full max-w-[1400px] min-[1800px]:max-w-[1600px] flex flex-col  items-center relative z-10 mt-40;
 }
 
 .mask_text {

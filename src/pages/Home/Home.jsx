@@ -1,6 +1,5 @@
 import React from "react";
 import style from "./style.module.css";
-import diamond from "../../Reilverse_Assets/Logo Vector (3).svg";
 import First_section from "../../sections/first_section/First_section";
 import Second_section from "../../sections/second_section/Second_section";
 
@@ -11,9 +10,6 @@ import phone from "../../Reilverse_Assets/Group.svg";
 import secure from "../../Reilverse_Assets/secure.png";
 import comodo from "../../Reilverse_Assets/image 63345987.svg";
 import mcaffe from "../../Reilverse_Assets/image 63345988.png";
-import vector1 from "../../Reilverse_Assets/Vector.svg";
-import vector2 from "../../Reilverse_Assets/Vector (1).svg";
-import vector3 from "../../Reilverse_Assets/Vector (2).svg";
 import {FaFacebookF, FaLinkedinIn} from "react-icons/fa";
 import {FaXTwitter} from "react-icons/fa6";
 
@@ -23,12 +19,6 @@ export default function Home() {
 
     return<>
         <div className={style.container}>
-
-            <div className={'w-full h-[900px] absolute top-0 left-0 bg-gradient-to-b from-[#c3e45e] to-transparent -z-0'}></div>
-            <img data-aos="zoom-in" className={'object-contain w-auto h-[750px] absolute -top-9 left-0 z-0'} src={diamond} alt={'Railverse logo vector'}/>
-            <img data-aos="zoom-in" className={'object-contain w-auto h-[400px] absolute top-32 right-0 -z-10'} src={vector1} alt={'Railverse logo vector'}/>
-            <img data-aos="zoom-in" className={'object-contain w-auto h-[400px] absolute top-10 right-0 -z-20'} src={vector2} alt={'Railverse logo vector'}/>
-            <img data-aos="zoom-in" className={'object-contain w-auto h-[400px] absolute -top-10 -right-32 -z-30'} src={vector3} alt={'Railverse logo vector'}/>
 
             <div className={style.content_wrapper}>
 
@@ -96,7 +86,6 @@ export default function Home() {
                         </div>
 
                     </div>
-
                 </div>
 
             </div>
