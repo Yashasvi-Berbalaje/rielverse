@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8cb4878-0d40-4dcd-a422-06f98cd79407" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Reilverse_Assets/home (5) 1.svg" afterDir="false" />
+    <list default="true" id="f8cb4878-0d40-4dcd-a422-06f98cd79407" name="Changes" comment="finalll">
       <change afterPath="$PROJECT_DIR$/src/Reilverse_Assets/input_logo.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/Switcher/Switcher.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/pages/CarBrand/CarBrand.jsx" afterDir="false" />
@@ -10,15 +9,6 @@
       <change afterPath="$PROJECT_DIR$/src/pages/Driver_info/Driver_info.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/pages/Driver_info/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/pages/Driver_info/style.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/style.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +51,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712900503723</updated>
-      <workItem from="1712900506237" duration="23405000" />
+      <workItem from="1712900506237" duration="23744000" />
     </task>
+    <task id="LOCAL-00001" summary="finalll">
+      <created>1712927123154</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712927123154</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,5 +76,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finalll" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalll" />
   </component>
 </project>
