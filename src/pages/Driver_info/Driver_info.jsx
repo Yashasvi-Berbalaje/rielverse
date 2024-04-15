@@ -8,8 +8,12 @@ import input_logo from "../../Reilverse_Assets/input_logo.svg";
 import "./style.css";
 import {IoFemaleSharp, IoMale} from "react-icons/io5";
 import CustomSwitcher from "../../components/CustomSwitcher/CustomSwitcher";
-import CustomCheckbox from "../../components/CustomCheckbox/CustomCheckbox";
 import {IoIosArrowForward} from "react-icons/io";
+import {useDispatch, useSelector} from "react-redux";
+import Allpolicy from "./components/allpolicy/allpolicy";
+import PersonalOffer from "./components/personalOffer/personalOffer";
+import BusinessOffer from "./components/businessOffer/businessOffer";
+import DataAnalyst from "./components/dataAnalyst/dataAnalyst";
 
 export default function Driver_info() {
 
@@ -23,6 +27,15 @@ export default function Driver_info() {
     const [currentInsurer,setInsurer] = useState('');
     const [policyStartDate,setPolicyStart] = useState('');
     const [insuranceType,setInsuranceType] = useState('');
+    const [acceptAll,setAccept] = useState(false);
+
+    const [activeOffers,setActiveOffers] = useState(0);
+
+    const allPolicy = useSelector((state)=>state.allPolicy.allPolicy);
+    const personalOffer = useSelector((state)=>state.personalOffers.personalOffers);
+    const businessOffer = useSelector((state)=>state.businessOffer.businessOffer);
+    const dataAnalyst = useSelector((state)=>state.dataAnalyst.dataAnalyst);
+    const dispatch = useDispatch();
 
 
     const TAB_MENUS = [
@@ -64,7 +77,7 @@ export default function Driver_info() {
         const currentDay = new Date().getDate();
         setPolicyStart(`${currentYear}-${currentMonth}-${currentDay+7}`)
     }
-    console.log(policyStartDate)
+    console.log(allPolicy)
     return<>
         <div className={style.container}>
             <div className={'w-full max-[520px]:px-4 max-[1200px]:px-10 max-[1300px]:max-w-[1150px] max-w-[1200px] min-[1600px]:max-w-[1400px] min-[1800px]:max-w-[1600px] h-auto flex flex-col items-center pb-20'}>
@@ -225,7 +238,7 @@ export default function Driver_info() {
                                     <span className={'text-[21px]'}>When do you want your policy to start ?</span>
                                     <span style={{fontFamily:"Arboria-Book",fontWeight:"400"}} className={'text-[14px] mb-6'}>Need Help ?</span>
                                 </div>
-                                <CustomSwitcher onFirst={TodayHandler} onSecond={WeekHandler} className={'w-[380px] max-[500px]:w-[280px]'} first={'Today'} second={'Next week'} third={"I don't know yet."}/>
+                                <CustomSwitcher onFirst={TodayHandler} onSecond={WeekHandler} onThird={()=>console.log('')} className={'w-[380px] max-[500px]:w-[280px]'} first={'Today'} second={'Next week'} third={"I don't know yet."}/>
                                 <DatePicker
                                     className={'outline-0 border border-[#8DC14B] mt-4'}
                                     onChange={(date, dateString)=>console.log(dateString)}
@@ -241,7 +254,7 @@ export default function Driver_info() {
                                     <span className={'text-[21px]'}>What insurance would you like to buy ?</span>
                                     <span style={{fontFamily:"Arboria-Book",fontWeight:"400"}} className={'text-[14px] mb-6'}>Need Help ?</span>
                                 </div>
-                                {/*<CustomSwitcher className={'w-[380px] max-[500px]:w-[280px]'} first={'Voluntary'} second={'Compulsory'} third={"Both"}/>*/}
+                                <CustomSwitcher onFirst={()=>setInsuranceType('voluntary')} onSecond={()=>setInsuranceType('compulsory')} onThird={()=>setInsuranceType('both')} className={'w-[380px] max-[500px]:w-[280px]'} first={'Voluntary'} second={'Compulsory'} third={"Both"}/>
                             </div>
 
                         </div>
@@ -265,7 +278,7 @@ export default function Driver_info() {
                             <div className={'flex items-start gap-4'}>
 
                                 <div className={'w-[35px] h-[35px] block'}>
-                                    <CustomCheckbox onClick={()=>console.log('')} />
+                                    <Allpolicy />
                                 </div>
 
                                 <div className={'flex flex-col items-start text-start'}>
@@ -281,7 +294,7 @@ export default function Driver_info() {
                             <div className={'flex items-start gap-4'}>
 
                                 <div className={'w-[35px] h-[35px] block'}>
-                                    <CustomCheckbox onClick={()=>console.log('')} />
+                                    <PersonalOffer  />
                                 </div>
 
                                 <div className={'flex flex-col items-start text-start'}>
@@ -296,7 +309,7 @@ export default function Driver_info() {
                             <div className={'flex items-start gap-4'}>
 
                                 <div className={'w-[35px] h-[35px] block'}>
-                                    <CustomCheckbox onClick={()=>console.log('')} />
+                                    <BusinessOffer />
                                 </div>
 
                                 <div className={'flex flex-col items-start text-start'}>
@@ -311,7 +324,7 @@ export default function Driver_info() {
                             <div className={'flex items-start gap-4'}>
 
                                 <div className={'w-[35px] h-[35px] block'}>
-                                    <CustomCheckbox onClick={()=>console.log('')} />
+                                    <DataAnalyst />
                                 </div>
 
                                 <div className={'flex flex-col items-start text-start'}>
