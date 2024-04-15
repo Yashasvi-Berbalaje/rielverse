@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8cb4878-0d40-4dcd-a422-06f98cd79407" name="Changes" comment="finalll">
-      <change afterPath="$PROJECT_DIR$/src/components/Switcher/Switcher.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/CarBrand/CarBrand.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/CarBrand/style.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Driver_info/Driver_info.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Driver_info/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Driver_info/style.module.css" afterDir="false" />
+    <list default="true" id="693445a1-260d-4d55-b9cc-a6f159d94842" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Reilverse_Assets/Support_guy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reilverse_Assets/Vector white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reilverse_Assets/couple 2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reilverse_Assets/edit (6) 1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reilverse_Assets/mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reilverse_Assets/operator.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reilverse_Assets/question-square 1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reilverse_Assets/support call.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CustomCheckbox/CustomCheckbox.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CustomSwitcher/CustomSwitcher.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/CarPayment/CarPayment.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/CarPayment/components/SideBar/SideBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/CarPayment/style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ConfirmationPayment/ConfirmationPayment.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ConfirmationPayment/components/Confirmation/Confirmation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ConfirmationPayment/style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Health_Insurance/Health_Insurance.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Health_Insurance/style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Login/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Login/style.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Switcher/Switcher.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switcher/Switcher.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CarBrand/CarBrand.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CarBrand/CarBrand.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CarBrand/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CarBrand/style.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Driver_info/Driver_info.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Driver_info/Driver_info.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Driver_info/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Driver_info/style.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,23 +44,27 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2ezHUWS7yHr3sWChryFmFgFAMHH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectId" id="2f2SEM2jMx4J6k9Vk3s5x9JjoTs" />
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Computec.uz\Desktop\insurance\src\Reilverse_Assets" />
@@ -46,28 +73,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f8cb4878-0d40-4dcd-a422-06f98cd79407" name="Changes" comment="" />
-      <created>1712900503723</created>
+      <changelist id="693445a1-260d-4d55-b9cc-a6f159d94842" name="Changes" comment="" />
+      <created>1712997567650</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1712900503723</updated>
-      <workItem from="1712900506237" duration="24115000" />
+      <updated>1712997567650</updated>
+      <workItem from="1712997570155" duration="9293000" />
+      <workItem from="1713070516621" duration="18792000" />
+      <workItem from="1713097868216" duration="1550000" />
+      <workItem from="1713099435964" duration="13465000" />
     </task>
-    <task id="LOCAL-00001" summary="finalll">
-      <created>1712927123154</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1712927123154</updated>
-    </task>
-    <task id="LOCAL-00002" summary="finalll">
-      <created>1712927403581</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1712927403581</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,9 +98,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="finalll" />
-    <option name="LAST_COMMIT_MESSAGE" value="finalll" />
   </component>
 </project>

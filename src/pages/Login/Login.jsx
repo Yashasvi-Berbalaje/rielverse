@@ -1,55 +1,59 @@
 import React from "react";
 import style from "./style.module.css";
-import First_section from "../../sections/first_section/First_section";
-import Second_section from "../../sections/second_section/Second_section";
-
-import green_layer from "../../Reilverse_Assets/Frame 3 (1).svg";
-import {IoIosArrowForward, IoLogoInstagram} from "react-icons/io";
+import {CiSearch} from "react-icons/ci";
+import white_vector from "../../Reilverse_Assets/Vector white.svg";
 import logo from "../../Reilverse_Assets/Logo.svg";
-import phone from "../../Reilverse_Assets/Group.svg";
 import secure from "../../Reilverse_Assets/secure.png";
 import comodo from "../../Reilverse_Assets/image 63345987.svg";
 import mcaffe from "../../Reilverse_Assets/image 63345988.png";
+import phone from "../../Reilverse_Assets/Group.svg";
 import {FaFacebookF, FaLinkedinIn} from "react-icons/fa";
 import {FaXTwitter} from "react-icons/fa6";
+import {IoLogoInstagram} from "react-icons/io";
+import couple from "../../Reilverse_Assets/couple 2.svg";
 import support_guy from "../../Reilverse_Assets/Support_guy.svg";
 
-export default function Home() {
-
+export default function Login() {
 
     return<>
         <div className={style.container}>
 
-            <div className={style.content_wrapper}>
+            <div className={'w-full max-[500px]:max-w-[300px] max-[800px]:max-w-[500px] max-w-[780px] h-[570px] bg-gradient-to-b from-[#8DC14B] to-transparent rounded-t-xl p-[1px]'}>
 
-                {/*First Layer*/}
-                <First_section/>
+                <div className={'w-full h-full flex flex-col items-center px-4 pt-7 rounded-t-xl bg-gradient-to-b from-white/90 to-white/30'}>
 
-                {/*Second Section*/}
-                <Second_section/>
+                    <span className={'text-[22px] text-[#47740E]'}>Login with Mobile Number</span>
+                    <div className={'relative mt-5'}>
+                        <input style={{fontFamily:"Arboria-Light",fontWeight:"400"}} placeholder={'Example : 080-8809 987'} className={' max-[500px]:w-[255px] max-[800px]:w-[355px] w-[550px] h-[55px] rounded-xl outline-0 border shadow-inner pl-6 border-[#8DC14B]'}/>
+                    </div>
+                    <div className={'w-[175px] h-10 rounded-lg bg-[#8DC14B] text-white flex items-center justify-center mt-7'}>
 
+                        <span className={'text-[12px]'}>Send OTP</span>
 
-                <div className={'w-full max-[800px]:px-2 max-[1440px]:px-6 flex flex-col items-center mt-20'}>
-
-                    <div data-aos="zoom-out-up" className={'w-full max-[630px]:w-full max-[630px]:h-28 max-[850px]:w-[600px] max-[850px]:h-44 max-[1200px]:w-[800px] max-[1200px]:h-60 min-[1880px]:max-w-[1400px] max-w-[1190px] h-80 rounded-2xl flex flex-col items-end justify-center max-[630px]:px-4 max-[850px]:px-16 px-28 relative'}>
-                        <img className={'w-full h-full object-fill absolute top-0 left-0 -z-0'} src={green_layer}/>
-                        <div className={'overflow-hidden z-0 w-80 h-20 max-[630px]:w-28 max-[630px]:h-12 max-[850px]:w-44 max-[850px]:h-14 max-[1200px]:w-52 max-[1200px]:h-16 flex pl-7 max-[630px]:text-start items-center rounded-2xl max-[630px]:text-[16px] max-[850px]:text-xl text-[24px] text-white font-semibold bg-green-600 bg-gradient-to-tl from-[#93c347] to-[#b8cf29] relative'}>
-                            <span className={'font-[400] max-[630px]:-translate-x-3'}>Get Quote</span>
-                            <IoIosArrowForward className={'text-[250px] absolute -right-8 max-[630px]:-right-12 max-[630px]:text-[150px] max-[850px]:text-[200px] max-[850px]:-right-14 max-[1200px]:-right-16 opacity-40'} />
-                        </div>
+                        <img className={'w-[19px] h-[13px] object-contain ml-3 '} src={white_vector} alt={'white vector'}/>
 
                     </div>
 
-                    <div className={'flex flex-col items-center mt-24'}>
+                    <p className={'text-[16px] mt-7'}>By continuing, I agree to <span className={'text-[#47740E]'}> Terms & Conditions</span>  </p>
 
-                        <img data-aos="zoom-out-up" className={'w-fit h-10 object-containe'} src={logo} alt={"Railverse Logo"}/>
+                    <img className={'object-contain max-[500px]:w-[259px] max-[500px]:h-fit max-w-[379px] max-h-[207px] mt-10 max-[800px]:self-center self-end'} src={couple} alt={'couple'}/>
 
-                        <p style={{fontWeight:"400",fontFamily : "Arboria-Book"}} data-aos="zoom-out-up" className={'text-2xl mt-4 opacity-75'}>Powered by Worldbridge Insurance Broker</p>
-                        <p style={{fontWeight:"400",fontFamily : "Arboria-Book"}} data-aos="zoom-out-up" className={'text-xl mt-4 opacity-75'}>#10, 150 South Bridge Rd, #04 Fook Hai Building, Singapore 058727</p>
-
-                    </div>
 
                 </div>
+
+            </div>
+
+            <div className={'w-full max-[520px]:px-4 max-[1200px]:px-10 max-[1300px]:max-w-[1150px] max-w-[1200px] min-[1600px]:max-w-[1400px] min-[1800px]:max-w-[1600px] h-auto flex flex-col items-center pb-20'}>
+
+                <div className={'flex flex-col items-center mt-24'}>
+
+                    <img data-aos="zoom-out-up" className={'w-fit h-10 object-containe'} src={logo} alt={"Railverse Logo"}/>
+
+                    <p style={{fontWeight:"400",fontFamily : "Arboria-Book"}} data-aos="zoom-out-up" className={'text-2xl mt-4 opacity-75'}>Powered by Worldbridge Insurance Broker</p>
+                    <p style={{fontWeight:"400",fontFamily : "Arboria-Book"}} data-aos="zoom-out-up" className={'text-xl mt-4 opacity-75'}>#10, 150 South Bridge Rd, #04 Fook Hai Building, Singapore 058727</p>
+
+                </div>
+
 
             </div>
 

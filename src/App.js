@@ -11,6 +11,10 @@ import vector2 from "./Reilverse_Assets/Vector (1).svg";
 import vector3 from "./Reilverse_Assets/Vector (2).svg";
 import CarBrand from "./pages/CarBrand/CarBrand";
 import Driver_info from "./pages/Driver_info/Driver_info";
+import CarPayment from "./pages/CarPayment/CarPayment";
+import ConfirmationPayment from "./pages/ConfirmationPayment/ConfirmationPayment";
+import Login from "./pages/Login/Login";
+import Health_Insurance from "./pages/Health_Insurance/Health_Insurance";
 
 function App() {
     useEffect(() => {
@@ -33,8 +37,12 @@ function App() {
 
                 <Routes>
                     <Route path={'/'} element={<Home/>}/>
-                    {/*<Route path={'/car_brand'} element={<CarBrand/>}/>*/}
-                    {/*<Route path={'/driver_info'} element={<Driver_info/>}/>*/}
+                    <Route path={'/login'} element={<Login/>}/>
+                    <Route path={'/car_brand'} element={<CarBrand/>}/>
+                    <Route path={'/driver_info'} element={<Driver_info/>}/>
+                    <Route path={'/car_payment'} element={<CarPayment/>}/>
+                    <Route path={'/confirmation_payment'} element={<ConfirmationPayment/>}/>
+                    <Route path={'/health_insurance'} element={<Health_Insurance/>}/>
                 </Routes>
 
             </div>

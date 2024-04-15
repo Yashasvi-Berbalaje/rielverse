@@ -4,7 +4,7 @@
 
 .container {
     font-family: "Arboria-Medium";
-    @apply  w-full h-auto flex flex-col items-center mt-32 z-10 overflow-x-clip ;
+    @apply  w-full h-auto flex flex-col items-center mt-40 z-10 overflow-x-clip ;
 }
 
 .tabs {

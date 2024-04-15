@@ -27,7 +27,7 @@ export default function Header() {
         },
         {
             title: "Support",
-            to : ''
+            to : '/car_payment'
         },
     ]
 
@@ -95,7 +95,7 @@ export default function Header() {
                                 placement="bottom"
                                 arrow
                             >
-                                <span onMouseEnter={()=>setActiveDropDown(1)} style={{fontFamily:`Arboria-Book`,fontWeight: "500"}} className={'cursor-pointer text-[16px] flex items-center gap-2 '}>Login  <SlArrowDown className={'text-[10px]'} /> </span>
+                                <Link to={'/login'} onMouseEnter={()=>setActiveDropDown(1)} style={{fontFamily:`Arboria-Book`,fontWeight: "500"}} className={'cursor-pointer text-[16px] flex items-center gap-2 '}>Login  <SlArrowDown className={'text-[10px]'} /> </Link>
                             </Dropdown>
 
                         </div>
@@ -125,7 +125,7 @@ export default function Header() {
                                 placement="bottom"
                                 arrow
                             >
-                                <Link onMouseEnter={()=>setActiveDropDown(2)} onClick={()=>window.scrollTo(0,0)} to={''} className={'text-[16px] tracking-[1px] font-[500] flex items-center gap-2 '} >
+                                <Link onMouseEnter={()=>setActiveDropDown(2)} onClick={()=>window.scrollTo(0,0)} to={'/car_brand'} className={'text-[16px] tracking-[1px] font-[500] flex items-center gap-2 '} >
                                     Products
                                     <SlArrowDown className={'text-[10px]'} />
                                 </Link>
@@ -143,8 +143,8 @@ export default function Header() {
 
                         </div>
 
-                        <div className={'p-2 rounded-full bg-[#c3e45e]/80 max-[1300px]:ml-4 ml-8  '}>
-                            <FiSearch className={'text-3xl'} />
+                        <div className={'p-2 rounded-full bg-[#47740E]/20 text-[#47740E] max-[1300px]:ml-4 ml-8  '}>
+                            <FiSearch className={'text-2xl'} />
                         </div>
 
                         <div className={'w-auto px-4 py-2 rounded-2xl bg-white shadow flex items-center gap-3 max-[1300px]:ml-4 ml-8 '}>
