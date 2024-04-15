@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="693445a1-260d-4d55-b9cc-a6f159d94842" name="Changes" comment="new one">
-      <change afterPath="$PROJECT_DIR$/src/pages/Driver_info/components/allpolicy/allpolicy.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Driver_info/components/businessOffer/businessOffer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Driver_info/components/dataAnalyst/dataAnalyst.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Driver_info/components/personalOffer/personalOffer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/allPolicyAction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/businessOfferAction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/dataAnalystAction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/personalOfferAction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/AllPolicyReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/BusinessOfferReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/DataAnalystReaducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/PersonalOffersReducer.js" afterDir="false" />
+    <list default="true" id="693445a1-260d-4d55-b9cc-a6f159d94842" name="Changes" comment="new onee">
+      <change afterPath="$PROJECT_DIR$/src/Reilverse_Assets/diamond logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/AboutUs/AboutUs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/AboutUs/style.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CustomCheckbox/CustomCheckbox.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CustomCheckbox/CustomCheckbox.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Driver_info/Driver_info.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Driver_info/Driver_info.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CarPayment/components/SideBar/SideBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CarPayment/components/SideBar/SideBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ConfirmationPayment/components/Confirmation/Confirmation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ConfirmationPayment/components/Confirmation/Confirmation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Health_Insurance/Health_Insurance.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Health_Insurance/Health_Insurance.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +72,7 @@
       <workItem from="1713070516621" duration="18792000" />
       <workItem from="1713097868216" duration="1550000" />
       <workItem from="1713099435964" duration="13465000" />
-      <workItem from="1713158516339" duration="16262000" />
+      <workItem from="1713158516339" duration="21852000" />
     </task>
     <task id="LOCAL-00001" summary="new one">
       <created>1713158648135</created>
@@ -92,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713158648135</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new onee">
+      <created>1713183313648</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713183313648</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new one" />
-    <option name="LAST_COMMIT_MESSAGE" value="new one" />
+    <MESSAGE value="new onee" />
+    <option name="LAST_COMMIT_MESSAGE" value="new onee" />
   </component>
 </project>

@@ -3,12 +3,12 @@ import insurance from "../../../../Reilverse_Assets/forte.png";
 
 export default function SideBar() {
 
-    const [activeType,setType] = useState(0);
-    const [activeAmount,setAmount] = useState(0);
-    const [activeDriver,setDriver] = useState(0);
-    const [activeRepair,setRepair] = useState(0);
-    const [activeService,setService] = useState(0);
-    const [activeDashCam,setDashCam] = useState(0);
+    const [activeType,setType] = useState('');
+    const [activeAmount,setAmount] = useState('');
+    const [activeDriver,setDriver] = useState('');
+    const [activeRepair,setRepair] = useState('');
+    const [activeService,setService] = useState('');
+    const [activeDashCam,setDashCam] = useState('');
 
     const TYPES = [
         {
@@ -102,7 +102,7 @@ export default function SideBar() {
 
                     <div className={'flex items-start flex-wrap gap-4 mt-2 '}>
 
-                        {TYPES.map((value, index)=> <div key={index} onClick={()=>setType(index)} className={` ${activeType===index? `border-[#8DC14B] text-[#8DC14B]` : `border-[#3E3E3E]`} duration-200 w-[70px] h-[25px] cursor-pointer rounded border flex items-center justify-center text-[9px]`}>{value.name}</div>)}
+                        {TYPES.map((value, index)=> <div key={index} onClick={()=>setType(value.name)} className={` ${activeType===value.name? `border-[#8DC14B] text-[#8DC14B]` : `border-[#3E3E3E]`} duration-200 w-[70px] h-[25px] cursor-pointer rounded border flex items-center justify-center text-[9px]`}>{value.name}</div>)}
 
                     </div>
 
@@ -115,31 +115,31 @@ export default function SideBar() {
                     <p style={{fontFamily:"Arboria-Book",fontWeight:"400"}} className={'text-[12px] mt-5'}>Deductible Amount <span className={'text-[#8DC14B]'}>?</span> </p>
 
                     <div className={'flex flex-wrap items-start gap-4 mt-2'}>
-                        {AMOUNT.map((value, index)=> <div key={index} onClick={()=>setAmount(index)} className={` ${activeAmount===index? `border-[#8DC14B] text-[#8DC14B]` : `border-[#3E3E3E]`} cursor-pointer duration-200 w-[94px] h-[25px] rounded border flex items-center justify-center text-[9px] `}>{value.name}</div>)}
+                        {AMOUNT.map((value, index)=> <div key={index} onClick={()=>setAmount(value.name)} className={` ${activeAmount===value.name? `border-[#8DC14B] text-[#8DC14B]` : `border-[#3E3E3E]`} cursor-pointer duration-200 w-[94px] h-[25px] rounded border flex items-center justify-center text-[9px] `}>{value.name}</div>)}
                     </div>
 
                     <p style={{fontFamily:"Arboria-Book",fontWeight:"400"}} className={'text-[12px] mt-5'}>No. of Drivers <span className={'text-[#8DC14B]'}>?</span> </p>
 
                     <div className={'flex flex-wrap items-start gap-4 mt-2'}>
-                        {DRIVERS.map((value, index)=> <div key={index} onClick={()=>setDriver(index)} className={` ${activeDriver===index? `border-[#8DC14B] text-[#8DC14B]` : `border-[#3E3E3E]`} cursor-pointer duration-200 w-[94px] h-[25px] rounded border flex items-center justify-center text-[9px] `}>{value.name}</div>)}
+                        {DRIVERS.map((value, index)=> <div key={index} onClick={()=>setDriver(value.name)} className={` ${activeDriver===value.name? `border-[#8DC14B] text-[#8DC14B]` : `border-[#3E3E3E]`} cursor-pointer duration-200 w-[94px] h-[25px] rounded border flex items-center justify-center text-[9px] `}>{value.name}</div>)}
                     </div>
 
                     <p style={{fontFamily:"Arboria-Book",fontWeight:"400"}} className={'text-[12px] mt-5'}>Repair Type <span className={'text-[#8DC14B]'}>?</span> </p>
 
                     <div className={'flex flex-wrap items-start gap-4 mt-2'}>
-                        {REPAIR.map((value, index)=> <div key={index} onClick={()=>setRepair(index)} className={` ${activeRepair===index? `border-[#8DC14B] text-[#8DC14B]` : `border-[#3E3E3E]`} cursor-pointer duration-200 w-[94px] h-[25px] rounded border flex items-center justify-center text-[9px] `}>{value.name}</div>)}
+                        {REPAIR.map((value, index)=> <div key={index} onClick={()=>setRepair(value.name)} className={` ${activeRepair===value.name? `border-[#8DC14B] text-[#8DC14B]` : `border-[#3E3E3E]`} cursor-pointer duration-200 w-[94px] h-[25px] rounded border flex items-center justify-center text-[9px] `}>{value.name}</div>)}
                     </div>
 
                     <p style={{fontFamily:"Arboria-Book",fontWeight:"400"}} className={'text-[12px] mt-5'}>Services & Extras <span className={'text-[#8DC14B]'}>?</span> </p>
 
                     <div className={'flex flex-wrap items-start gap-4 mt-2'}>
-                        {SERVICES.map((value, index)=> <div key={index} onClick={()=>setService(index)} className={` ${activeService===index? `border-[#8DC14B] text-[#8DC14B]` : `border-[#3E3E3E]`} cursor-pointer duration-200 w-[94px] h-[25px] rounded border flex items-center justify-center text-[9px] `}>{value.name}</div>)}
+                        {SERVICES.map((value, index)=> <div key={index} onClick={()=>setService(value.name)} className={` ${activeService===value.name? `border-[#8DC14B] text-[#8DC14B]` : `border-[#3E3E3E]`} cursor-pointer duration-200 w-[94px] h-[25px] rounded border flex items-center justify-center text-[9px] `}>{value.name}</div>)}
                     </div>
 
                     <p style={{fontFamily:"Arboria-Book",fontWeight:"400"}} className={'text-[12px] mt-5'}>Dashboard CAM discount <span className={'text-[#8DC14B]'}>?</span> </p>
 
                     <div className={'flex flex-wrap items-start gap-4 mt-2'}>
-                        {DASHBOARD_CAM.map((value, index)=> <div key={index} onClick={()=>setDashCam(index)} className={` ${activeDashCam===index? `border-[#8DC14B] text-[#8DC14B]` : `border-[#3E3E3E]`} cursor-pointer duration-200 w-[94px] h-[25px] rounded border flex items-center justify-center text-[9px] `}>{value.name}</div>)}
+                        {DASHBOARD_CAM.map((value, index)=> <div key={index} onClick={()=>setDashCam(value.name)} className={` ${activeDashCam===value.name? `border-[#8DC14B] text-[#8DC14B]` : `border-[#3E3E3E]`} cursor-pointer duration-200 w-[94px] h-[25px] rounded border flex items-center justify-center text-[9px] `}>{value.name}</div>)}
                     </div>
 
                 </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import style from "./style.module.css";
 import {IoIosArrowForward, IoLogoInstagram} from "react-icons/io";
 import CustomCheckbox from "../../components/CustomCheckbox/CustomCheckbox";
@@ -16,6 +16,12 @@ import {FaXTwitter} from "react-icons/fa6";
 import support_guy from "../../Reilverse_Assets/Support_guy.svg";
 
 export default function Health_Insurance() {
+
+    const [firstName,setFirstName] = useState('');
+    const [lastName,setLastName] = useState('');
+    const [email,setEmail] = useState('');
+    const [phoneNumber,setPhoneNumber] = useState('');
+    const [agreement,setAgreement] = useState(false);
 
     return<>
         <div className={style.container}>
@@ -36,25 +42,25 @@ export default function Health_Insurance() {
 
                                 <div className={'bg-gradient-to-t from-[#8DC14B] to-[7%] to-transparent  pb-[1px] rounded-b-xl mt-4'}>
 
-                                    <input style={{fontFamily:"Arboria-Book",fontWeight:"400"}} placeholder={'First Name'} className={'w-[270px]  h-[45px] bg-transparent rounded-xl pl-7 outline-0'}/>
+                                    <input onChange={(e)=>setFirstName(e.target.value)} style={{fontFamily:"Arboria-Book",fontWeight:"400"}} placeholder={'First Name'} className={'w-[270px]  h-[45px] bg-transparent rounded-xl pl-7 outline-0'}/>
 
                                 </div>
 
                                 <div className={'bg-gradient-to-t from-[#8DC14B] to-[7%] to-transparent pb-[1px] rounded-b-xl mt-4'}>
 
-                                    <input style={{fontFamily:"Arboria-Book",fontWeight:"400"}} placeholder={'Last Name'} className={'w-[270px] h-[45px] bg-transparent rounded-xl pl-7 outline-0'}/>
+                                    <input onChange={(e)=>setLastName(e.target.value)} style={{fontFamily:"Arboria-Book",fontWeight:"400"}} placeholder={'Last Name'} className={'w-[270px] h-[45px] bg-transparent rounded-xl pl-7 outline-0'}/>
 
                                 </div>
 
                                 <div className={'bg-gradient-to-t from-[#8DC14B] to-[7%] to-transparent pb-[1px] rounded-b-xl mt-4'}>
 
-                                    <input style={{fontFamily:"Arboria-Book",fontWeight:"400"}} placeholder={'Ex : gmail.com'} className={'w-[270px] h-[45px] bg-transparent rounded-xl pl-7 outline-0'}/>
+                                    <input onChange={(e)=>setEmail(e.target.value)} style={{fontFamily:"Arboria-Book",fontWeight:"400"}} placeholder={'Ex : gmail.com'} className={'w-[270px] h-[45px] bg-transparent rounded-xl pl-7 outline-0'}/>
 
                                 </div>
 
                                 <div className={'bg-gradient-to-t from-[#8DC14B] to-[7%] to-transparent pb-[1px] rounded-b-xl mt-4'}>
 
-                                    <input style={{fontFamily:"Arboria-Book",fontWeight:"400"}} placeholder={'Phone'} className={'w-[270px] h-[45px] bg-transparent rounded-xl pl-7 outline-0'}/>
+                                    <input onChange={(e)=>setPhoneNumber(e.target.value)} style={{fontFamily:"Arboria-Book",fontWeight:"400"}} placeholder={'Phone'} className={'w-[270px] h-[45px] bg-transparent rounded-xl pl-7 outline-0'}/>
 
                                 </div>
 
@@ -68,7 +74,7 @@ export default function Health_Insurance() {
                             <div className={'flex items-start mt-5 gap-2'}>
 
                                 <div className={'w-[25px] h-[25px] block'}>
-                                    <CustomCheckbox className={'w-[25px] h-[25px] shadow'} onClick={()=>console.log()}/>
+                                    <CustomCheckbox className={'w-[25px] h-[25px] shadow'} onClick={()=>setAgreement(!agreement)}/>
                                 </div>
 
                                 <span style={{fontFamily:"Arboria-Book",fontWeight:"400"}} className={'text-[12px] max-w-[480px] '}>I hereby authorize Universal Sompo General Insurance to contact me on my given mobile number.</span>

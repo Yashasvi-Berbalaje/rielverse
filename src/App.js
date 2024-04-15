@@ -15,6 +15,7 @@ import CarPayment from "./pages/CarPayment/CarPayment";
 import ConfirmationPayment from "./pages/ConfirmationPayment/ConfirmationPayment";
 import Login from "./pages/Login/Login";
 import Health_Insurance from "./pages/Health_Insurance/Health_Insurance";
+import AboutUs from "./pages/AboutUs/AboutUs";
 
 function App() {
     useEffect(() => {
@@ -37,6 +38,7 @@ function App() {
 
                 <Routes>
                     <Route path={'/'} element={<Home/>}/>
+                    <Route path={'/about'} element={<AboutUs/>}/>
                     <Route path={'/login'} element={<Login/>}/>
                     <Route path={'/car_brand'} element={<CarBrand/>}/>
                     <Route path={'/driver_info'} element={<Driver_info/>}/>
