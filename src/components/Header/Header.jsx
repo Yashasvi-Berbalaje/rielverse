@@ -77,7 +77,7 @@ export default function Header() {
 
                         <div className={'flex items-center gap-4 max-[600px]:hidden'}>
 
-                            <span style={{fontFamily:`Arboria-Book`,fontWeight: "500"}} className={'text-[16px] '}>About us</span>
+                            <Link to={'/about'} style={{fontFamily:`Arboria-Book`,fontWeight: "500"}} className={'text-[16px] '}>About us</Link>
                             <Dropdown
                                 menu={{
                                     items,

@@ -4,9 +4,6 @@ import style from "./style.module.css";
 import colleges from "../../Reilverse_Assets/colleges.jfif";
 import diamond from "../../Reilverse_Assets/diamond logo.svg";
 import layer from "../../Reilverse_Assets/about_layer.png";
-import input_logo from "../../Reilverse_Assets/input_logo.svg";
-import {Option} from "antd/es/mentions";
-import {Select} from "antd";
 import {IoIosArrowForward, IoLogoInstagram} from "react-icons/io";
 import logo from "../../Reilverse_Assets/Logo.svg";
 import support_guy from "../../Reilverse_Assets/Support_guy.svg";
@@ -30,11 +27,11 @@ export default function AboutUs() {
 
                         <div className={'w-full max-[1150px]:flex-col-reverse max-[1150px]:items-center flex items-start justify-between'}>
 
-                            <div className={'flex flex-col items-start text-start'}>
+                            <div className={'max-[1150px]:w-full flex flex-col items-start text-start'}>
 
                                 <span className={'text-[24px]'}>About <br/> Rielverse</span>
 
-                                <span style={{fontFamily:`Arboria-Book`,fontWeight:`400`}} className={'text-[18px] max-w-[500px] mt-5'}>Work directly with Insurance experts that have over 15 years of experience in the insurance industry.</span>
+                                <span style={{fontFamily:`Arboria-Book`,fontWeight:`400`}} className={'text-[18px] max-[1150px]:w-full min-[1150px]:w-[500px] mt-5'}>Work directly with Insurance experts that have over 15 years of experience in the insurance industry.</span>
 
                                 <div className={'w-full max-w-[430px] h-[1px] bg-gradient-to-r from-[#47740E] to-transparent mt-16 '}></div>
 
@@ -42,8 +39,8 @@ export default function AboutUs() {
 
                             <div className={'flex relative'}>
 
-                                <img src={diamond} className={'w-[238px] h-[175px] object-contain absolute -bottom-14 -left-32'}/>
-                                <img className={'w-[339px] h-[226px] object-contain rounded-xl'} src={colleges} alt={'colleges'}/>
+                                <img src={diamond} className={' max-w-[238px] max-h-[175px] max-[1150px]:max-w-[128px] max-[1150px]:max-h-[78px] object-contain absolute max-[1150px]:-bottom-2 -bottom-14 max-[1150px]:-left-10 -left-32'}/>
+                                <img className={'max-w-[339px] max-h-[226px] max-[1150px]:max-w-[279px] max-[1150px]:max-h-[166px] object-contain rounded-xl'} src={colleges} alt={'colleges'}/>
 
                             </div>
 
@@ -60,7 +57,7 @@ export default function AboutUs() {
 
                         </div>
 
-                        <div className={'w-full flex items-start gap-10 '}>
+                        <div className={'w-full flex items-start gap-10  max-[1150px]:flex-col max-[1150px]:items-center'}>
 
                             <div className={'w-[300px] h-[450px]'}>
                                 <div className={'w-[300px] h-[448px] block border-2 rounded-xl overflow-visible border-[#8DC14B]/50 hover:border-[#8DC14B] p-[1px] duration-300'}>
@@ -96,43 +93,48 @@ export default function AboutUs() {
                         </p>
 
 
-                        <div className={'w-full max-w-[1080px] h-[172px] rounded-xl bg-[#74B5FF]/30 self-center mt-7 flex flex-col items-center justify-center px-14'}>
-                            <div className={'flex items-start'}>
-
-                                <span className={'text-[16px]'}>Need Insurance? Request <br/> Call Back</span>
-
-                                <div className={'bg-gradient-to-t from-[#2983D3] to-[7%] to-transparent  pb-[1px] rounded-b-xl mt-4'}>
-
-                                    <input onChange={(e)=>console.log(e.target.value)} style={{fontFamily:"Arboria-Book",fontWeight:"400"}} placeholder={'First Name *'} className={'w-[220px]  h-[45px] bg-transparent rounded-xl pl-7 outline-0'}/>
-
-                                </div>
-
-                                <div className={'bg-gradient-to-t from-[#2983D3] to-[7%] to-transparent  pb-[1px] rounded-b-xl mt-4'}>
-
-                                    <input onChange={(e)=>console.log(e.target.value)} style={{fontFamily:"Arboria-Book",fontWeight:"400"}} placeholder={'Phone number *'} className={'w-[220px]  h-[45px] bg-transparent rounded-xl pl-7 outline-0'}/>
-
-                                </div>
-
-                                <div className={'bg-gradient-to-t from-[#2983D3] to-[7%] to-transparent  pb-[1px] rounded-b-xl mt-4'}>
-
-                                    <select className={'h-[45px] rounded-xl bg-transparent outline-0'} >
-                                        <option value="volvo">Motors</option>
-                                        <option value="saab">2JZ</option>
-                                        <option value="opel">RB26</option>
-                                        <option value="audi">V12</option>
-                                    </select>
-
-                                </div>
-
-                                <div className={'overflow-hidden w-[180px] h-10 flex pl-7 items-center self-start rounded-lg text-[11px] text-white font-semibold bg-gradient-to-tl from-[#2983D3] to-[#74B5FF] relative mt-7'}>
-                                    <span className={'font-[400]  uppercase'}>Request Callback</span>
-                                    <IoIosArrowForward className={'text-[150px] absolute -right-8 opacity-40'} />
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
 
+                </div>
+
+            </div>
+
+
+            <div className={'w-full flex flex-col items-center px-4'}>
+
+                <div className={'w-full  max-w-[1080px] h-[172px] max-[1000px]:w-auto max-[1000px]:h-auto  rounded-xl bg-[#74B5FF]/30 self-center mt-7 flex flex-col items-center justify-center max-[600px]:px-7 px-14'}>
+                    <div className={'flex max-[1000px]:flex-col max-[1000px]:gap-3 max-[1000px]:py-4 max-[1000px]:items-center items-start text-start'}>
+
+                        <span className={'text-[16px]'}>Need Insurance? Request <br/> Call Back</span>
+
+                        <div className={'bg-gradient-to-t from-[#2983D3] to-[7%] to-transparent  pb-[1px] rounded-b-xl mt-4'}>
+
+                            <input onChange={(e)=>console.log(e.target.value)} style={{fontFamily:"Arboria-Book",fontWeight:"400"}} placeholder={'First Name *'} className={'w-[220px]  h-[45px] bg-transparent rounded-xl pl-7 outline-0'}/>
+
+                        </div>
+
+                        <div className={'bg-gradient-to-t from-[#2983D3] to-[7%] to-transparent  pb-[1px] rounded-b-xl mt-4'}>
+
+                            <input onChange={(e)=>console.log(e.target.value)} style={{fontFamily:"Arboria-Book",fontWeight:"400"}} placeholder={'Phone number *'} className={'w-[220px]  h-[45px] bg-transparent rounded-xl pl-7 outline-0'}/>
+
+                        </div>
+
+                        <div className={'bg-gradient-to-t from-[#2983D3] to-[7%] to-transparent  pb-[1px] rounded-b-xl mt-4'}>
+
+                            <select className={'h-[45px] rounded-xl bg-transparent outline-0'} >
+                                <option value="volvo">Motors</option>
+                                <option value="saab">2JZ</option>
+                                <option value="opel">RB26</option>
+                                <option value="audi">V12</option>
+                            </select>
+
+                        </div>
+
+                        <div className={'overflow-hidden ml-7 w-[180px] h-10 flex pl-7 items-center self-start rounded-lg text-[11px] text-white font-semibold bg-gradient-to-tl from-[#2983D3] to-[#74B5FF] relative mt-7'}>
+                            <span className={'font-[400]  uppercase'}>Request Callback</span>
+                            <IoIosArrowForward className={'text-[150px] absolute -right-8 opacity-40'} />
+                        </div>
+                    </div>
                 </div>
 
             </div>
